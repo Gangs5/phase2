@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="0.967">
+    <testcase classname="Dietician HomePage" name="The Dietician lands into Dietician home page after Sign in" time="0.056">
+        <system-out><![CDATA[Given The dietician is on dietician HOME PAGE...............................passed
+When The Dietician fills valid username, password...........................passed
+When clicks the logged in as Dietician option...............................passed
+When clicks the Sign IN button..............................................passed
+Then The page will be re directed to the Dietician homepage and the username will display as Logged in as Dietician Name.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Dietician HomePage" name="The Dietician Home page TOP PANEL section" time="0.004">
+        <system-out><![CDATA[Given The dietician is on dietician HOME PAGE Top Panel Section.............passed
+When The Dietician Home Page contains company logo and an image.............passed
+Then The dietician will see logo and image..................................passed
+When The Dietician Home page contains few clickable header options such as HOME,NEW PATIENT,MY PATIENT,DIET PLAN.passed
+Then The dietician will be re directed to the respective pages upon a click.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Dietician HomePage" name="Body of the Dietician Home Page" time="0.003">
+        <system-out><![CDATA[Given dietician is on body of dietician HOME PAGE...........................passed
+When The Dietician Home page contains Company banner and important Announcements.passed
+Then The dietician will see all the important announcements upon login......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Dietician HomePage" name="The dietician Home page SIGN OUT" time="0.009">
+        <system-out><![CDATA[Given dietician is Signing Out..............................................passed
+When The Dietician home page top panel contains a SIGN OUT clickable button.passed
+Then The Dietician Signs out of the portal upon the click...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="NEW PATIENT PAGE" name="Dietician is on New PATIENT page" time="0.008">
+        <system-out><![CDATA[Given The Dietician lands on the New Patient page...........................passed
+When the dietician clicks on the New Patient clickable header option in Home Page.passed
+Then The dietician will be re directed to New Patient page from Dietician home page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="NEW PATIENT PAGE" name="Filling New Patient Data" time="0.025">
+        <system-out><![CDATA[Given Dietician is on New PATIENT page......................................passed
+When The dietician fills the patient's FULL NAME............................passed
+When The dietician fills the patient's date of birth mm dd yyyy.............passed
+When The dietician fills the patient's height ___ft___in....................passed
+When The dietician fills the patient's weight  _____lbs.....................passed
+When the dietician fills the patient's Address Line 1.......................passed
+When The dietician fills the patient's Address line 2.......................passed
+When the dietician clicks the country dropdown and selects the respective patient's country.passed
+When the dietician fills the patient's City Name............................passed
+When the dietician fills the patient's State name...........................passed
+When the dietician fills the patient's Postal Code..........................passed
+When the dietician fills the patient's Email Id.............................passed
+When the dietician fills the patient's 10 digit phone number................passed
+When The dietician clicks the update button.................................passed
+Then the dietician will get an alert on screen saying new patient details updated.passed
+When the dietician clicks on the update health conditions button............passed
+Then the dietician will be re directed to the update health conditions page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="NEW PATIENT PAGE" name="filling New Patient data fails(-ve)" time="0.01">
+        <system-out><![CDATA[Given the system doesnt accept the new patient data.........................passed
+When the dietician fills the new patient's first name and last name which are already in records.passed
+Then the dietician will get an alert on screen saying same first name and last name exists.passed
+When the dietician doesnt fill 10 digits in the mobile number tab...........passed
+Then the dietician will get an alert on screen saying enter valid mobile number.passed
+When the dietician doesnt fill all the tabs in the form.....................passed
+Then the dietician will get an alert on screen saying fill all the tabs in the form.passed
+When the dietician doesnt fill valid 5 digit postal code....................passed
+Then the dietician will get an alert on screen saying enter valid 5 digit postal code.passed
+When the dietician doesnt fill valid email address..........................passed
+Then the dietician will get an alert on scree saying enter valid email address.passed
+When the dietician fills the first name and last name as alphanumeric.......passed
+Then the dietician will get an alert on screen saying invalid first name and last name should contain alphabets only.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="New Patient Data Page suggestions" name="Dietician fills Patient Age,Height and Weight Data" time="0.003">
+        <system-out><![CDATA[Given Dietician is on New Patient Data page.................................passed
+When The dietician fills the patient's date of birth mm dd yyyy.............passed
+When The dietician fills the patient's height ___ft___in....................passed
+When The dietician fills the patient's weight  _____lbs.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Book An Appointment page" name="User trying to book an Appointment" time="0.009">
+        <system-out><![CDATA[Given User is in Book an Appointment page...................................passed
+When User fills Patient Name column.........................................passed
+When user fills Mobile Number Column........................................passed
+When User selects the required date from the calendar displaying date and day.passed
+When User clicks available time slot for the selected date..................passed
+When the User clicks on the BOOK button.....................................passed
+Then User appointment gets booked and the screen will display an alert saying Your Appointment is booked.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Dietician Dashboard" name="Dietician is on the Dietician Homepage Dashboard" time="0.011">
+        <system-out><![CDATA[Given Dietician logged in successfully to the Dietician website.............passed
+When Dietician verifes Dashboard Left Side Bar..............................passed
+Then User can see Upcoming Events section in left side bar..................passed
+When Dietician Verifies Upcoming Event Items................................passed
+Then Dietician can see the Items of  Upcoming Events section in left side bar.passed
+When Dietician verifies Dashboard Top Right Side Bar........................passed
+Then User can see Banner or Announcements section in top right side bar.....passed
+When Dietician verifies Dashboard Bottom Right Side Bar.....................passed
+Then Dietician can see the ratio graph of enrolled patients  in bottom right side bar Recovery rate.passed
+When Dietician Verifies Total Patient.......................................passed
+Then Dietician can see the Total Patient count..............................passed
+When Dietician verifies Verify New Patient..................................passed
+Then Dietician can see the New Patient count................................passed
+When Dietician Verifies Recovered Patient...................................passed
+Then Dietician can see Recovered Patient count..............................passed
+When Dietician Verifies Incoming Patient History............................passed
+Then Dietician can see the comparison  graph in Incoming Patient History....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Generated Diet Plans Page" name="The dietician validates search filter option and searches the desired patient" time="0.003">
+        <system-out><![CDATA[Given The dietician is on the Generated Diet Plans page.....................passed
+When the dietician fills the search fields such as patients name or email address or phone number.passed
+When The dietician hits the search button...................................passed
+Then the dietician will be re directed to the search result page with similar inputs.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="My Account(User) Menu page" name="options in My Account (User)Menu page after login" time="0.011">
+        <system-out><![CDATA[Given User is on home page after login......................................passed
+When Clicks My account icon on the menu bar.................................passed
+Then Account displays few clickable options which will be redirected to their respective pages.passed
+When user clicks on Test Reports option.....................................passed
+Then user can see the Test reports..........................................passed
+When user clicks on Diet Plans option.......................................passed
+Then user can see all the Diet Plans........................................passed
+When user clicks on Previous Visits.........................................passed
+Then user can see all their Previous visits.................................passed
+When user clicks on Upcoming visits.........................................passed
+Then user can see all the Upcoming visits...................................passed
+When user clicks on BOOK AN APPOINTMENT.....................................passed
+Then user will be redirected to Book an Appointment page....................passed
+When user clicks on Services................................................passed
+Then user can see all the services provided.................................passed
+When user clicks on Recipes.................................................passed
+Then user can see all the recipes available.................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
