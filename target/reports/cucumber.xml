@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="94" time="2.534">
-<testcase classname="New Patient Data Page suggestions" name="Dietician fills Patient Age,Height and Weight Data" time="0.094">
-<system-out><![CDATA[Given Dietician is on New Patient Data page.................................passed
-When The dietician fills the patient's date of birth mm dd yyyy.............passed
-When The dietician fills the patient's height ___ft___in....................passed
-When The dietician fills the patient's weight  _____lbs.....................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="94" time="7.355">
+<testcase classname="New Patient Data Page new suggestions" name="Dietitian fills Patient Age,Height and Weight Data" time="0.193">
+<system-out><![CDATA[Given Dietitian is on New Patient Data page.................................passed
+When The Dietitian fills the patient's date of birth mm dd yyyy.............passed
+When The Dietitian fills the patient's height ___ft___in....................passed
+When The Dietitian fills the patient's weight  _____lbs.....................passed
+When The Dietitian fills all the other mandatory fields.....................passed
+When The Dietician clicks on the Update Button..............................passed
+Then The Dietician gets an alert saying New Patient details updated.........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Book An Appointment page" name="User trying to book an Appointment" time="0.013">
+<testcase classname="Book An Appointment page" name="User trying to book an Appointment" time="0.017">
 <system-out><![CDATA[Given User is in Book an Appointment page...................................passed
 When User fills Patient Name column.........................................passed
 When user fills Mobile Number Column........................................passed
@@ -16,61 +19,61 @@ When the User clicks on the BOOK button.....................................pass
 Then User appointment gets booked and the screen will display an alert saying Your Appointment is booked.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Heading for Diet Plans page" name="Validating the heading of theDiet plans page" time="0.003">
+<testcase classname="Heading for Diet Plans page" name="Validating the heading of theDiet plans page" time="0.012">
 <system-out><![CDATA[Given User is logged on to Dietician website for diets plan page............passed
 When User lands on Diet Plans page..........................................passed
 Then User should see the heading Generated Diet Plans on the page...........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dietician Dashboard" name="Dietician is on the Dietician Homepage Dashboard" time="0.017">
-<system-out><![CDATA[Given Dietician logged in successfully to the Dietician website.............passed
-When Dietician verifes Dashboard Left Side Bar..............................passed
+<testcase classname="Dietitian Dashboard" name="Dietitian is on the Dietitian Homepage Dashboard" time="0.059">
+<system-out><![CDATA[Given Dietitian logged in successfully to the Dietitian website.............passed
+When Dietitian verifes Dashboard Left Side Bar..............................passed
 Then User can see Upcoming Events section in left side bar..................passed
-When Dietician Verifies Upcoming Event Items................................passed
-Then Dietician can see the Items of  Upcoming Events section in left side bar.passed
-When Dietician verifies Dashboard Top Right Side Bar........................passed
+When Dietitian Verifies Upcoming Event Items................................passed
+Then Dietitian can see the Items of  Upcoming Events section in left side bar.passed
+When Dietitian verifies Dashboard Top Right Side Bar........................passed
 Then User can see Banner or Announcements section in top right side bar.....passed
-When Dietician verifies Dashboard Bottom Right Side Bar.....................passed
-Then Dietician can see the ratio graph of enrolled patients  in bottom right side bar Recovery rate.passed
-When Dietician Verifies Total Patient.......................................passed
-Then Dietician can see the Total Patient count..............................passed
-When Dietician verifies Verify New Patient..................................passed
-Then Dietician can see the New Patient count................................passed
-When Dietician Verifies Recovered Patient...................................passed
-Then Dietician can see Recovered Patient count..............................passed
-When Dietician Verifies Incoming Patient History............................passed
-Then Dietician can see the comparison  graph in Incoming Patient History....passed
+When Dietitian verifies Dashboard Bottom Right Side Bar.....................passed
+Then Dietitian can see the ratio graph of enrolled patients  in bottom right side bar Recovery rate.passed
+When Dietitian Verifies Total Patient.......................................passed
+Then Dietitian can see the Total Patient count..............................passed
+When Dietitian verifies Verify New Patient..................................passed
+Then Dietitian can see the New Patient count................................passed
+When Dietitian Verifies Recovered Patient...................................passed
+Then Dietitian can see Recovered Patient count..............................passed
+When Dietitian Verifies Incoming Patient History............................passed
+Then Dietitian can see the comparison  graph in Incoming Patient History....passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dietician HomePage" name="The Dietician lands into Dietician home page after Sign in" time="0.008">
-<system-out><![CDATA[Given The dietician is on dietician HOME PAGE...............................passed
-When The Dietician fills valid username, password...........................passed
-When clicks the logged in as Dietician option...............................passed
+<testcase classname="Dietitian HomePage" name="The Dietitian lands into Dietitian home page after Sign in" time="0.073">
+<system-out><![CDATA[Given The Dietitian is on Dietitian HOME PAGE...............................passed
+When The Dietitian fills valid username, password...........................passed
+When clicks the logged in as Dietitian option...............................passed
 When clicks the Sign IN button..............................................passed
-Then The page will be re directed to the Dietician homepage and the username will display as Logged in as Dietician Name.passed
+Then The page will be re directed to the Dietitian homepage and the username will display as Logged in as Dietitian Name.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dietician HomePage" name="The Dietician Home page TOP PANEL section" time="0.004">
-<system-out><![CDATA[Given The dietician is on dietician HOME PAGE Top Panel Section.............passed
-When The Dietician Home Page contains company logo and an image.............passed
-Then The dietician will see logo and image..................................passed
-When The Dietician Home page contains few clickable header options such as HOME,NEW PATIENT,MY PATIENT,DIET PLAN.passed
-Then The dietician will be re directed to the respective pages upon a click.passed
+<testcase classname="Dietitian HomePage" name="The Dietitian Home page TOP PANEL section" time="0.02">
+<system-out><![CDATA[Given The Dietitian is on Dietitian HOME PAGE Top Panel Section.............passed
+When The Dietitian Home Page contains company logo and an image.............passed
+Then The Dietitian will see logo and image..................................passed
+When The Dietitian Home page contains few clickable header options such as HOME,NEW PATIENT,MY PATIENT,DIET PLAN.passed
+Then The Dietitian will be re directed to the respective pages upon a click.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dietician HomePage" name="Body of the Dietician Home Page" time="0.002">
-<system-out><![CDATA[Given dietician is on body of dietician HOME PAGE...........................passed
-When The Dietician Home page contains Company banner and important Announcements.passed
-Then The dietician will see all the important announcements upon login......passed
+<testcase classname="Dietitian HomePage" name="Body of the Dietitian Home Page" time="0.003">
+<system-out><![CDATA[Given Dietitian is on body of Dietitian HOME PAGE...........................passed
+When The Dietitian Home page contains Company banner and important Announcements.passed
+Then The Dietitian will see all the important announcements upon login......passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dietician HomePage" name="The dietician Home page SIGN OUT" time="0.002">
-<system-out><![CDATA[Given dietician is Signing Out..............................................passed
-When The Dietician home page top panel contains a SIGN OUT clickable button.passed
-Then The Dietician Signs out of the portal upon the click...................passed
+<testcase classname="Dietitian HomePage" name="The Dietitian Home page SIGN OUT" time="0.008">
+<system-out><![CDATA[Given Dietitian is Signing Out..............................................passed
+When The Dietitian home page top panel contains a SIGN OUT clickable button.passed
+Then The Dietitian Signs out of the portal upon the click...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Edit patient report" name="Validate VIEW/EDIT/CREATE buttons are visible for the patient with their health conditions are not confirmed" time="0.005">
+<testcase classname="Edit patient report" name="Validate VIEW/EDIT/CREATE buttons are visible for the patient with their health conditions are not confirmed" time="0.05">
 <system-out><![CDATA[Given Dietician naviagates to My Patients screen............................passed
 When Dietician enters patient name and clicks search button.................passed
 Then Patient details for the given name is displays in the My Patients screen.passed
@@ -78,13 +81,13 @@ When Dietician checks  VIEW PREVIOUS TEST REPORTand PLANS and CREATE NEW REPORT 
 Then VIEW PREVIOUS TEST REPORT and PLAN and CREATE NEW REPORT and PLAN buttons  EDIT PREVIOUS REPORT and PLAN buttons displays in the My Patients screen.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Edit patient report" name="Validate user is able to Edit the Diet plan when the health conditions are not confirmed" time="0.002">
+<testcase classname="Edit patient report" name="Validate user is able to Edit the Diet plan when the health conditions are not confirmed" time="0.007">
 <system-out><![CDATA[Given Dietician is on My Patients screen....................................passed
 When Dietician clicks EDIT PREVIOUS REPORT/PLAN button......................passed
 Then Dietician navigates to Confirm Health conditions and Generate a new Diet plan.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Edit patient report" name="Validate the health conditions and co - morbidis and preferences are preselected based on its created" time="0.002">
+<testcase classname="Edit patient report" name="Validate the health conditions and co - morbidis and preferences are preselected based on its created" time="0.018">
 <system-out><![CDATA[Given Dietician is on Confirm Health Conditions and Generate a new Diet Plan page.passed
 When Dietician gets the page with pre selections of health conditionsa andCo-Morbidities and Preference.passed
 Then health conditions and Co-Morbidities and Preference are preselected based on the report and Menu created.passed
@@ -92,7 +95,7 @@ When Dietician changes the condition and Co Morbidities and preference......pass
 Then changed condition and Co Morbidities and preferences appears on the screen along with the previous selection.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Edit patient report" name="Confirm Health Conditions and Generate a new Diet Plan" time="0.002">
+<testcase classname="Edit patient report" name="Confirm Health Conditions and Generate a new Diet Plan" time="0.003">
 <system-out><![CDATA[Given Dietician is on Confirm Health Conditions and Generate a new Diet Plan page.passed
 When Clicks both of the confirm buttons.....................................passed
 Then Confirm button turns into Confirmed and authenticiated with the message Health conditions and Co Morbidities and preferences are confirmed.passed
@@ -100,7 +103,7 @@ When Clicks GENERATE MENU button	Diet plan..................................pass
 Then updated and authendicated with the message Report and Diet Plan is updated successfully.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Edit patient report" name="Validate Dietician could not edit the health conditions and Diet plans for a patient has confirmed health conditions" time="0.002">
+<testcase classname="Edit patient report" name="Validate Dietician could not edit the health conditions and Diet plans for a patient has confirmed health conditions" time="0.007">
 <system-out><![CDATA[Given Dietician navigates to My Patients screen.............................passed
 When Enters patient name and hit the search button..........................passed
 Then Patient details for the given name is displays in the My Patients screen.passed
@@ -108,7 +111,7 @@ When Dietician gets VIEW PREVIOUS TEST REPORT and  VIEW PREVIOUS DIET PLANS and 
 Then EDIT PREVIOUS REPORT/PLAN button is not displays on the screen.........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in functionality of a dietician website" name="Sign in" time="0.007">
+<testcase classname="Sign in functionality of a dietician website" name="Sign in" time="0.034">
 <system-out><![CDATA[Given Already created user name.............................................passed
 When User enters valid user name............................................passed
 Given Already created password..............................................passed
@@ -116,13 +119,13 @@ When User enters the valid password.........................................pass
 Then User should be signed in successfully..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in functionality of a dietician website" name="User forgot password" time="0.001">
+<testcase classname="Sign in functionality of a dietician website" name="User forgot password" time="0.003">
 <system-out><![CDATA[Given User is in sign in page...............................................passed
 When User clicks the Forgot Password........................................passed
 Then It should take to set new password page................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in functionality of a dietician website" name="User set new password" time="0.003">
+<testcase classname="Sign in functionality of a dietician website" name="User set new password" time="0.015">
 <system-out><![CDATA[Given User is on reset your password........................................passed
 When page	User enters the email.............................................passed
 Then An OTP should sent to the valid email..................................passed
@@ -134,25 +137,25 @@ When User enters the OTP....................................................pass
 Then User should be allowed to create a new Password........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in functionality of a dietician website" name="User setting new password" time="0.003">
+<testcase classname="Sign in functionality of a dietician website" name="User setting new password" time="0.004">
 <system-out><![CDATA[Given Set password page.....................................................passed
 When User creates a new Password............................................passed
 Then User should be allowed to set new Password.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in functionality of a dietician website" name="Log in with new password" time="0.002">
+<testcase classname="Sign in functionality of a dietician website" name="Log in with new password" time="0.001">
 <system-out><![CDATA[Given Set password page.....................................................passed
 When user clicks Login button...............................................passed
 Then User should be able to login successfully with new password............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in functionality of a dietician website" name="User not a member yet of that website" time="0">
+<testcase classname="Sign in functionality of a dietician website" name="User not a member yet of that website" time="0.001">
 <system-out><![CDATA[Given User is in sign in page...............................................passed
 When User clicks the Not a member yet.......................................passed
 Then It should redirect user to the sign up page............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in functionality of a dietician website" name="Sign in with invalid credentials (_ve)" time="0.002">
+<testcase classname="Sign in functionality of a dietician website" name="Sign in with invalid credentials (_ve)" time="0.001">
 <system-out><![CDATA[Given Invalid password......................................................passed
 When User enters invalid password...........................................passed
 Given Invalid user name.....................................................passed
@@ -166,7 +169,7 @@ When User fills sign in form................................................pass
 Then User should get error message please register before signning in.......passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in functionality of a dietician website" name="Using one valid, one invalid credentials" time="0.003">
+<testcase classname="Sign in functionality of a dietician website" name="Using one valid, one invalid credentials" time="0.004">
 <system-out><![CDATA[Given User is on sign in page...............................................passed
 When User enters valid username with incorrect password.....................passed
 Then User should get error message please enter valid password..............passed
@@ -174,44 +177,44 @@ When User enters invalid username and correct password......................pass
 Then User should get error message please enter valid username..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in functionality of a dietician website" name="Forgot password" time="0">
+<testcase classname="Sign in functionality of a dietician website" name="Forgot password" time="0.003">
 <system-out><![CDATA[Given Forgot password page..................................................passed
 When User enters an incorrect OTP...........................................passed
 Then It should give an error asking user to click resend OTP button.........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Generate Menu button on Create Plan page" name="Validating the Generate Menu button visibility" time="0.002">
+<testcase classname="Generate Menu button on Create Plan page" name="Validating the Generate Menu button visibility" time="0.003">
 <system-out><![CDATA[Given User is logged on to Dietician website................................passed
 When User lands on Confirm conditions and Create Plan page..................passed
 Then User should see a button with text GENERATE MENU  at the bottom of the page.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Generate Menu button on Create Plan page" name="Validating the Generate Menu button operation" time="0.001">
+<testcase classname="Generate Menu button on Create Plan page" name="Validating the Generate Menu button operation" time="0.002">
 <system-out><![CDATA[Given User is on create plan page to click on menu button...................passed
 When User clicks the GENERATE MENU button...................................passed
 Then New Diet plan should be generated with the latest confirmed Health conditions.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Generate Menu button on Create Plan page" name="Validating the Generate Menu button operation to land on view recent diets page" time="0.001">
+<testcase classname="Generate Menu button on Create Plan page" name="Validating the Generate Menu button operation to land on view recent diets page" time="0.002">
 <system-out><![CDATA[Given User is on create plan page to click on menu button to land on view recent diets page.passed
 When User clicks the GENERATE MENU button to land on view recent diets page.passed
 Then User should land on View Recent Diets page.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Generated Diet Plans Page" name="The dietician validates search filter option and searches the desired patient" time="0.003">
-<system-out><![CDATA[Given The dietician is on the Generated Diet Plans page.....................passed
-When the dietician fills the search fields such as patients name or email address or phone number.passed
-When The dietician hits the search button...................................passed
-Then the dietician will be re directed to the search result page with similar inputs.passed
+<testcase classname="Generated Diet Plans Page" name="The Dietitian validates search filter option and searches the desired patient" time="0.013">
+<system-out><![CDATA[Given The Dietitian is on the Generated Diet Plans page.....................passed
+When the Dietitian fills the search fields such as patients name or email address or phone number.passed
+When The Dietitian hits the search button...................................passed
+Then the Dietitian will be re directed to the search result page with similar inputs.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign Up Using Google button" name="Validating the Sign up process with Google" time="0.003">
+<testcase classname="Sign Up Using Google button" name="Validating the Sign up process with Google" time="0.004">
 <system-out><![CDATA[Given User is on Register page to signup with google........................passed
 When User clicks Google button in the Sign Up with your Email form..........passed
 Then User successfully login with Google account............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="click on Log In here link" name="Validating Log In Here link" time="0.003">
+<testcase classname="click on Log In here link" name="Validating Log In Here link" time="0.002">
 <system-out><![CDATA[Given User is on Register page to click on Log In here link.................passed
 When User clicks Log in here link...........................................passed
 Then User is re-directed to Sign In Page....................................passed
@@ -223,7 +226,7 @@ When User lands on Diet Plans page for menu bar.............................pass
 Then User should see that Diet Plans tab on the menu bar is selected........passed
 ]]></system-out>
 </testcase>
-<testcase classname="My Account(User) Menu page" name="options in My Account (User)Menu page after login" time="0.01">
+<testcase classname="My Account(User) Menu page" name="options in My Account (User)Menu page after login" time="0.052">
 <system-out><![CDATA[Given User is on home page after login......................................passed
 When Clicks My account icon on the menu bar.................................passed
 Then Account displays few clickable options which will be redirected to their respective pages.passed
@@ -236,62 +239,59 @@ Then user can see all their Previous visits.................................pass
 When user clicks on Upcoming visits.........................................passed
 Then user can see all the Upcoming visits...................................passed
 When user clicks on BOOK AN APPOINTMENT.....................................passed
-Then user will be redirected to Book an Appointment page....................passed
+Then user will be redireted to Book an Appointment page.....................passed
 When user clicks on Services................................................passed
 Then user can see all the services provided.................................passed
 When user clicks on Recipes.................................................passed
 Then user can see all the recipes available.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="NEW PATIENT PAGE" name="Dietician is on New PATIENT page" time="0.004">
-<system-out><![CDATA[Given The Dietician lands on the New Patient page...........................passed
-When the dietician clicks on the New Patient clickable header option in Home Page.passed
-Then The dietician will be re directed to New Patient page from Dietician home page.passed
+<testcase classname="NEW PATIENT PAGE" name="Dietitian is on New PATIENT page" time="0.005">
+<system-out><![CDATA[Given The Dietitian lands on the New Patient page...........................passed
+When the Dietitian clicks on the New Patient clickable header option in Home Page.passed
+Then The Dietitian will be re directed to New Patient page from Dietitian home page.passed
 ]]></system-out>
 </testcase>
-<testcase classname="NEW PATIENT PAGE" name="Filling New Patient Data" time="0.006">
-<system-out><![CDATA[Given Dietician is on New PATIENT page......................................passed
-When The dietician fills the patient's FULL NAME............................passed
-When The dietician fills the patient's date of birth mm dd yyyy.............passed
-When The dietician fills the patient's height ___ft___in....................passed
-When The dietician fills the patient's weight  _____lbs.....................passed
-When the dietician fills the patient's Address Line 1.......................passed
-When The dietician fills the patient's Address line 2.......................passed
-When the dietician clicks the country dropdown and selects the respective patient's country.passed
-When the dietician fills the patient's City Name............................passed
-When the dietician fills the patient's State name...........................passed
-When the dietician fills the patient's Postal Code..........................passed
-When the dietician fills the patient's Email Id.............................passed
-When the dietician fills the patient's 10 digit phone number................passed
-When The dietician clicks the update button.................................passed
-Then the dietician will get an alert on screen saying new patient details updated.passed
-When the dietician clicks on the update health conditions button............passed
-Then the dietician will be re directed to the update health conditions page.passed
+<testcase classname="NEW PATIENT PAGE" name="Filling New Patient Data" time="0.011">
+<system-out><![CDATA[Given Dietitian is on New PATIENT page......................................passed
+When The Dietitian fills the patient's FULL NAME............................passed
+When the Dietitian fills the patient's Address Line 1.......................passed
+When The Dietitian fills the patient's Address line 2.......................passed
+When the Dietitian clicks the country dropdown and selects the respective patient's country.passed
+When the Dietitian fills the patient's City Name............................passed
+When the Dietitian fills the patient's State name...........................passed
+When the Dietitian fills the patient's Postal Code..........................passed
+When the Dietitian fills the patient's Email Id.............................passed
+When the Dietitian fills the patient's 10 digit phone number................passed
+When The Dietitian clicks the update button.................................passed
+Then the Dietitian will get an alert on screen saying new patient details updated.passed
+When the Dietitian clicks on the update health conditions button............passed
+Then the Dietitian will be re directed to the update health conditions page.passed
 ]]></system-out>
 </testcase>
-<testcase classname="NEW PATIENT PAGE" name="filling New Patient data fails(-ve)" time="0.005">
+<testcase classname="NEW PATIENT PAGE" name="filling New Patient data fails(-ve)" time="0.011">
 <system-out><![CDATA[Given the system doesnt accept the new patient data.........................passed
-When the dietician fills the new patient's first name and last name which are already in records.passed
-Then the dietician will get an alert on screen saying same first name and last name exists.passed
-When the dietician doesnt fill 10 digits in the mobile number tab...........passed
-Then the dietician will get an alert on screen saying enter valid mobile number.passed
-When the dietician doesnt fill all the tabs in the form.....................passed
-Then the dietician will get an alert on screen saying fill all the tabs in the form.passed
-When the dietician doesnt fill valid 5 digit postal code....................passed
-Then the dietician will get an alert on screen saying enter valid 5 digit postal code.passed
-When the dietician doesnt fill valid email address..........................passed
-Then the dietician will get an alert on scree saying enter valid email address.passed
-When the dietician fills the first name and last name as alphanumeric.......passed
-Then the dietician will get an alert on screen saying invalid first name and last name should contain alphabets only.passed
+When the Dietitian fills the new patient's first name and last name which are already in records.passed
+Then the Dietitian will get an alert on screen saying same first name and last name exists.passed
+When the Dietitian doesnt fill 10 digits in the mobile number tab...........passed
+Then the Dietitian will get an alert on screen saying enter valid mobile number.passed
+When the Dietitian doesnt fill all the tabs in the form.....................passed
+Then the Dietitian will get an alert on screen saying fill all the tabs in the form.passed
+When the Dietitian doesnt fill valid 5 digit postal code....................passed
+Then the Dietitian will get an alert on screen saying enter valid 5 digit postal code.passed
+When the Dietitian doesnt fill valid email address..........................passed
+Then the Dietitian will get an alert on scree saying enter valid email address.passed
+When the Dietitian fills the first name and last name as alphanumeric.......passed
+Then the Dietitian will get an alert on screen saying invalid first name and last name should contain alphabets only.passed
 ]]></system-out>
 </testcase>
-<testcase classname="My Patient elements" name="Verify my patient tab" time="0.002">
+<testcase classname="My Patient elements" name="Verify my patient tab" time="0.001">
 <system-out><![CDATA[Given User is on any page after login.......................................passed
 When User clicks on "My Patients" tab.......................................passed
 Then It shows breadcrubs as Dietician Software MyPatients...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Fetch patient info" name="Search Filters" time="0.004">
+<testcase classname="Fetch patient info" name="Search Filters" time="0.008">
 <system-out><![CDATA[Given User is on my patients page...........................................passed
 When User types in anything other than 0 to 9 in phone number field.........passed
 Then It must throw error message and discontinue search action..............passed
@@ -307,13 +307,13 @@ When User clicks on search button with all fields empty.....................pass
 Then Displays all patients for that dietician only..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Fetch patient info" name="Verify column names" time="0">
+<testcase classname="Fetch patient info" name="Verify column names" time="0.001">
 <system-out><![CDATA[Given User is on my patients list...........................................passed
 When User clicks on search button with or without all fields empty..........passed
 Then It shows columns name like Record Number CustID and Name and Details and Last Visit and Actions and View Previous Test Report and View Previous Diet Plans and Create New Report or Plan.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Fetch patient info" name="Verify that page needs pagiation" time="0.001">
+<testcase classname="Fetch patient info" name="Verify that page needs pagiation" time="0.005">
 <system-out><![CDATA[Given Patients record are displayed.........................................passed
 When Records are more than 10...............................................passed
 Then It must show pagination links..........................................passed
@@ -323,7 +323,7 @@ When User clicks on previous pagination link................................pass
 Then It goes to previous page...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Fetch patient info" name="Verify that each patient detail" time="0.002">
+<testcase classname="Fetch patient info" name="Verify that each patient detail" time="0.003">
 <system-out><![CDATA[Given User has searched patients............................................passed
 When Patients records Cust ID are displayed.................................passed
 Then Customer Id is shown in column Cust ID column..........................passed
@@ -351,7 +351,7 @@ When User clicks on button View Previous Test Reports.......................pass
 Then It redirects user to View Patient Test Reports page....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Patient Test Report" name="Display Patient Test Report page" time="0.002">
+<testcase classname="Patient Test Report" name="Display Patient Test Report page" time="0.004">
 <system-out><![CDATA[Given Dietician is on the My patients page..................................passed
 When Enters the patient name in filter and clicks search....................passed
 Then A record of the given patient is displays here.........................passed
@@ -359,7 +359,7 @@ When Clicks View Previous Test Reports button...............................pass
 Then Dietician navigates to View Patient Test Reports page..................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Patient Test Report" name="View Patient Test Report page" time="0">
+<testcase classname="Patient Test Report" name="View Patient Test Report page" time="0.001">
 <system-out><![CDATA[Given Dietician is on View Patients Test report page........................passed
 When Dietician checks the File/Report uploaded in the Confirm health condition and create diet plan page is available in the table.passed
 Then File/Report displays in the table located in the View Patient Test Reports page.passed
@@ -367,7 +367,7 @@ When Clicks on the view PDF button of particular patients...................pass
 Then PDF file opens in separate window......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Patient Test Report" name="View Patient PDF file" time="0.001">
+<testcase classname="Patient Test Report" name="View Patient PDF file" time="0.003">
 <system-out><![CDATA[Given Dietician is on PDF file..............................................passed
 When Dietician clicks on View PDF button available in the Diet Plan column..passed
 Then PDF file opens in separate window......................................passed
@@ -375,13 +375,13 @@ When Dietician checks the Patient Details and Doctor Details and health conditio
 Then Patient Details and doctor Details and health conditions and 7 Days Menu and warnings and comments are available in the PDF file.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Lists of screens for Users, Dieticians and clients access" name="Validating the Public section on list of screens" time="0.001">
+<testcase classname="Lists of screens for Users, Dieticians and clients access" name="Validating the Public section on list of screens" time="0.004">
 <system-out><![CDATA[Given User is on public page................................................passed
 When User opens the browser.................................................passed
 Then User navigates to the public page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Lists of screens for Users, Dieticians and clients access" name="Screens avalable in the drop down menu" time="0">
+<testcase classname="Lists of screens for Users, Dieticians and clients access" name="Screens avalable in the drop down menu" time="0.003">
 <system-out><![CDATA[Given User is on home page..................................................passed
 When User clicks the user sign in button....................................passed
 Then User should be directed to the sign in page............................passed
@@ -391,7 +391,7 @@ When User clicks TEAM tab...................................................pass
 Then It should display the page with three doctors or dieticians name and details.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Lists of screens for Users, Dieticians and clients access" name="CLIENTS on homepage menu bar" time="0.002">
+<testcase classname="Lists of screens for Users, Dieticians and clients access" name="CLIENTS on homepage menu bar" time="0.003">
 <system-out><![CDATA[Given User is on home page..................................................passed
 When User clicks clients button.............................................passed
 Then User should take to the clients testimonial page.......................passed
@@ -401,7 +401,7 @@ When User clicks the > button...............................................pass
 Then User should be on the last page of client testimonial..................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Lists of screens for Users, Dieticians and clients access" name="Other screens on the menu" time="0.003">
+<testcase classname="Lists of screens for Users, Dieticians and clients access" name="Other screens on the menu" time="0.007">
 <system-out><![CDATA[Given User is on sing in page...............................................passed
 When User clicks Forgot Password button.....................................passed
 Then User should be taken to the forgot password specific page..............passed
@@ -417,19 +417,19 @@ When User clicks Fearured Content...........................................pass
 Then It should display featured content page................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Pagination on View Recent Diet Plans page" name="Validating the default number of records displayed per page" time="0.001">
+<testcase classname="Pagination on View Recent Diet Plans page" name="Validating the default number of records displayed per page" time="0.006">
 <system-out><![CDATA[Given User is logged on to Dietician website to validate....................passed
 When User is on View Recent Diets Page......................................passed
 Then User should see 5 records per page.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Pagination on View Recent Diet Plans page" name="Validation of traversing to next page" time="0.001">
+<testcase classname="Pagination on View Recent Diet Plans page" name="Validation of traversing to next page" time="0.002">
 <system-out><![CDATA[Given User is on view recent diets page to validate.........................passed
 When More than one page of records are displayed and User is on first page..passed
 Then Next Page button  is enabled...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Pagination on View Recent Diet Plans page" name="Validation of traversing to second  page from view recent diets page" time="0.001">
+<testcase classname="Pagination on View Recent Diet Plans page" name="Validation of traversing to second  page from view recent diets page" time="0.002">
 <system-out><![CDATA[Given User is on View Recent Diets Page and more than one page of records are displayed and User is on first page.passed
 When User clicks on next button.............................................passed
 Then User should see the second page........................................passed
@@ -441,25 +441,25 @@ When User see more than one page of records.................................pass
 Then Previous Page button is enabled........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Pagination on View Recent Diet Plans page" name="Validating the traversing to previous page" time="0">
+<testcase classname="Pagination on View Recent Diet Plans page" name="Validating the traversing to previous page" time="0.008">
 <system-out><![CDATA[Given User is on last page of view recent diets to validate previou page....passed
 When User clicks on previous page button....................................passed
 Then User should be traversed to previous page..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Pagination on View Recent Diet Plans page" name="Validation of traversing to previous page when user is on first page" time="0.001">
+<testcase classname="Pagination on View Recent Diet Plans page" name="Validation of traversing to previous page when user is on first page" time="0.002">
 <system-out><![CDATA[Given User is on first page.................................................passed
 When User see more than one page of records.................................passed
 Then Previous page button is disabled.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register page mandatory fields" name="Validating the Register page mandatory fields" time="0.001">
+<testcase classname="Register page mandatory fields" name="Validating the Register page mandatory fields" time="0.004">
 <system-out><![CDATA[Given User is on Dietician website page.....................................passed
 When User lands on Register page on Dietician website.......................passed
 Then User should see all mandatory flields with star symbol on top of those fields.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality using any other field" name="Sign up formalities" time="0.001">
+<testcase classname="Register functionality using any other field" name="Sign up formalities" time="0.009">
 <system-out><![CDATA[Given Sign up with First Name credential....................................passed
 When User fill the valid First Name.........................................passed
 Given Sign up with Last Name credential.....................................passed
@@ -489,25 +489,25 @@ When User leaves email field empty..........................................pass
 Then It should display an alert to fill up all the mandatory fields.........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality using any other field" name="Gives invalid ph no" time="0.001">
+<testcase classname="Register functionality using any other field" name="Gives invalid ph no" time="0.003">
 <system-out><![CDATA[Given Sign up with invalid ph no............................................passed
 When User puts 7 digit ph no................................................passed
 Then It should give an alert to user for using a valid ph no for the field..passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality using any other field" name="Password could not match the criteria" time="0">
+<testcase classname="Register functionality using any other field" name="Password could not match the criteria" time="0.001">
 <system-out><![CDATA[Given Sign up with invalid password.........................................passed
 When User creates shorter password than required............................passed
 Then User should get an error message password criteria did not match.......passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality using any other field" name="Leaving any other field empty" time="0">
+<testcase classname="Register functionality using any other field" name="Leaving any other field empty" time="0.002">
 <system-out><![CDATA[Given User on sign up form page.............................................passed
 When User leaves any other field empty......................................passed
 Then User should get an error message asking to fill all the boxes..........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register page Title" name="Validating the title of Register page" time="0">
+<testcase classname="Register page Title" name="Validating the title of Register page" time="0.002">
 <system-out><![CDATA[Given User is on Dietician website..........................................passed
 When User lands on Register page............................................passed
 Then User should see the title of page as Register..........................passed
@@ -525,13 +525,13 @@ When User clicks the view recent diets......................................pass
 Then User should see  recent diets..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dietician specific screens" name="Validating view recent test reports" time="0">
+<testcase classname="Dietician specific screens" name="Validating view recent test reports" time="0.001">
 <system-out><![CDATA[Given User is on view recent test reports page..............................passed
 When User clicks view recent test reports...................................passed
 Then User should see view recent test reports...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dietician specific screens" name="Lists on the menu" time="0">
+<testcase classname="Dietician specific screens" name="Lists on the menu" time="0.006">
 <system-out><![CDATA[Given User on new patient page..............................................passed
 When User clicks new patient button.........................................passed
 Then it should display new patient details..................................passed
@@ -543,13 +543,13 @@ When User clicks Confirm conditions and create diet plan....................pass
 Then User should see Confirm conditions and create diet plan page...........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search patient" name="User search the Patient text" time="0.002">
+<testcase classname="Search patient" name="User search the Patient text" time="0.008">
 <system-out><![CDATA[Given User is on any page after login.......................................passed
 When User clicks on My Patients tab.........................................passed
 Then Name email and phone number filter options and search button are displayed.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search patient" name="Verify search button text" time="0.001">
+<testcase classname="Search patient" name="Verify search button text" time="0.002">
 <system-out><![CDATA[Given User is logged in.....................................................passed
 When User is on my patients.................................................passed
 Then Button used for search has text as Search..............................passed
@@ -561,7 +561,7 @@ When User starts typing inside phone number filter box......................pass
 Then Text inside phone number filter box should disappear...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search patient" name="Search patients by name" time="0.002">
+<testcase classname="Search patient" name="Search patients by name" time="0.001">
 <system-out><![CDATA[Given User is on my patients................................................passed
 When User clicks on search with name phrase into name filter box............passed
 Then Records for name phrase are shown......................................passed
@@ -571,7 +571,7 @@ When User clicks on search with phone number into phone number filter.......pass
 Then Records for phone number are shown.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the Signup form with valid credentials" time="0.006">
+<testcase classname="Register functionality of a Dietician website" name="Validating the Signup form with valid credentials" time="0.037">
 <system-out><![CDATA[Given User is on register page to Signup....................................passed
 When User enters the user first name last name valid mobile number and password.passed
 Then User clicks on Signup..................................................passed
@@ -585,7 +585,7 @@ When User enters all the valid values in the respective options.............pass
 Then User is successfully redirected to Signin page.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with all fields empty" time="0">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with all fields empty" time="0.002">
 <system-out><![CDATA[Given User is on register page..............................................passed
 When User clicks on signup button with all fields empty.....................passed
 Then User should see the message that Mandatory fields cannot be empty......passed
@@ -597,31 +597,31 @@ When User clicks SIGN UP button in the Sign Up form  by entering numeric text fo
 Then User should see a message Invalid data entered for First Name..........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid last name" time="0">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid last name" time="0.001">
 <system-out><![CDATA[Given User is on register page to signup with invalid last name.............passed
 When User clicks SIGN UP button in the Sign Up form  by entering numeric text for last Name valid values for the remaining fields.passed
 Then User should see a message Invalid data entered for last name...........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid mobile number" time="0">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid mobile number" time="0.003">
 <system-out><![CDATA[Given User is on register page to signup with invalid mobile number.........passed
 When User clicks SIGN UP button in the Sign Up form  by entering alphanumeric text for mobile number field and valid values for the remaining fields.passed
 Then User should see a message Invalid data entered for mobile number.......passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid anyother field" time="0.001">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid anyother field" time="0.003">
 <system-out><![CDATA[Given User is on register page to signup with invalid anyother field........passed
 When User clicks SIGN UP button in the Sign Up form  by entering numeric values for anyother field and valid values for the remaining fields.passed
 Then User should see a message Invalid data entered for anyother field......passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid email id field" time="0">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid email id field" time="0.002">
 <system-out><![CDATA[Given User is on register page to signup with invalid email id  field.......passed
 When User clicks SIGN UP button in the Sign Up form  by entering invalid email id  and valid values for the remaining fields.passed
 Then User should see a message Invalid data entered for email id  field.....passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid password" time="0">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid password" time="0.001">
 <system-out><![CDATA[Given User is on register page to signup with invalid password  field.......passed
 When User clicks SIGN UP button in the Sign Up form  by entering invalid password  and valid values for the remaining fields.passed
 Then User should see a message Invalid data entered forpassword field.......passed
@@ -633,43 +633,43 @@ When User clicks SIGN UP button in the Sign Up form  by leaving all fields empty
 Then User should see a message cannot be empty..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid name on sign up with email id form" time="0">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid name on sign up with email id form" time="0.001">
 <system-out><![CDATA[Given User is on register page to signup with invalid name  on email sign up form.passed
 When User clicks SIGN UP button in the Sign Up form by entering invalid name  on email signup form.passed
 Then User should see a message invalid data entered for name................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid last name on sign up with email id form" time="0">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid last name on sign up with email id form" time="0.002">
 <system-out><![CDATA[Given User is on register page to signup with invalid last name  on email sign up form.passed
 When User clicks SIGN UP button in the Sign Up form by entering invalid last name  on email signup form.passed
 Then User should see a message invalid data entered for last name on email sign up form.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid UserName on sign up with email id form" time="0">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid UserName on sign up with email id form" time="0.004">
 <system-out><![CDATA[Given User is on register page to signup with invalid UserName  on email sign up form.passed
 When User clicks SIGN UP button in the Sign Up form by entering invalid UserName  on email signup form.passed
 Then User should see a message invalid data entered for UserName on email sign up form.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid Email Address on sign up with email id form" time="0">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid Email Address on sign up with email id form" time="0.001">
 <system-out><![CDATA[Given User is on register page to signup with invalid Email Address  on email sign up form.passed
 When User clicks SIGN UP button in the Sign Up form by entering invalid Email Address on email signup form.passed
 Then User should see a message invalid data entered for Email Address on email sign up form.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid Password on sign up with email id form" time="0.001">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid Password on sign up with email id form" time="0.002">
 <system-out><![CDATA[Given User is on register page to signup with invalid Password  on email sign up form.passed
 When User clicks SIGN UP button in the Sign Up form by entering invalid Password  on email signup form.passed
 Then User should see a message invalid data entered for Password on email sign up form.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid confirm Password on sign up with email id form" time="0">
+<testcase classname="Register functionality of a Dietician website" name="Validating the signup form with invalid confirm Password on sign up with email id form" time="0.001">
 <system-out><![CDATA[Given User is on register page to signup with invalid confirm Password  on email sign up form.passed
 When User clicks SIGN UP button in the Sign Up form by entering invalid confirm Password on email signup form.passed
 Then User should see a message invalid data entered for confirm Password on email sign up form.passed
 ]]></system-out>
 </testcase>
-<testcase classname="View PDF" name="Validation of View PDF option" time="0">
+<testcase classname="View PDF" name="Validation of View PDF option" time="0.004">
 <system-out><![CDATA[Given User is logged on to Dietician website to validate PDF................passed
 When User is on View Recent Diets Page......................................passed
 Then View PDF option is available for the generated diet plans..............passed
@@ -681,31 +681,31 @@ When User selects the View PDF button for a generated diet plan.............pass
 Then User should see the information in the PDF as Patient details,Doctor details,Patient health details,7-day menu,warnings,Comments.passed
 ]]></system-out>
 </testcase>
-<testcase classname="View PDF" name="Validation of download PDF option for a diet plan" time="0">
+<testcase classname="View PDF" name="Validation of download PDF option for a diet plan" time="0.003">
 <system-out><![CDATA[Given User is logged on to Dietician website to validate PDF for a diet plan.passed
 When User selects the view PDF button.......................................passed
 Then User should be able to see download option for the PDF and able to download the PDF.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Signup using Facebook button" name="Validating the Sign up process with Facebook" time="0.001">
+<testcase classname="Signup using Facebook button" name="Validating the Sign up process with Facebook" time="0.002">
 <system-out><![CDATA[Given User is on Register page to signup with facebook......................passed
 When User clicks Facebook button in the Sign Up with your Email form........passed
 Then User successfully login with Facebook account..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="HomePage of the Dietician website" name="Validating title of homepage" time="0">
+<testcase classname="HomePage of the Dietician website" name="Validating title of homepage" time="0.008">
 <system-out><![CDATA[Given User is on the browser................................................passed
 When User opens the Dietician Website.......................................passed
 Then User should see the public page........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="HomePage of the Dietician website" name="Verifying the logo on the Home page" time="0">
+<testcase classname="HomePage of the Dietician website" name="Verifying the logo on the Home page" time="0.002">
 <system-out><![CDATA[Given User is on the public page............................................passed
 When User navigates to this page from any browser...........................passed
 Then User should see a logo with the company name on the home page..........passed
 ]]></system-out>
 </testcase>
-<testcase classname="HomePage of the Dietician website" name="Homepage contains few tabs and icons on the menu bar" time="0.001">
+<testcase classname="HomePage of the Dietician website" name="Homepage contains few tabs and icons on the menu bar" time="0">
 <system-out><![CDATA[Given User on Homepage......................................................passed
 When User navigates to the homepage.........................................passed
 Then User should see a menu bar which contains few tabs along with a search icon, my account icon and a menu bar icon.passed

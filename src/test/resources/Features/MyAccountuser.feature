@@ -13,7 +13,7 @@ Feature: My Account(User) Menu page
     When user clicks on Upcoming visits
     Then user can see all the Upcoming visits
     When user clicks on BOOK AN APPOINTMENT
-    Then user will be redirected to Book an Appointment page
+    Then user will be redireted to Book an Appointment page
     When user clicks on Services
     Then user can see all the services provided
     When user clicks on Recipes
