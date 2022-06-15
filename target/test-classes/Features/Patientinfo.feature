@@ -14,7 +14,7 @@
 
    @Test006
    Scenario: Display list of patients
-   Given User is on my patients 
+   Given User is on my patients list
    When User clicks on search button with all fields empty
    Then Displays all patients for that dietician only
 
