@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities_Dietician.ReadConfig;
 
 
@@ -28,22 +29,20 @@ import utilities_Dietician.ReadConfig;
 		     {
 		    	if(browser.equals("chrome"))
 		    	{
-		    		
-		    		System.setProperty("webdriver.chrome.driver", readconfig.Getchromepath() );
+		    		WebDriverManager.chromedriver().setup();
 		    		  driver = new ChromeDriver();
 		    		 //driver.get(baseURL);
 		    		    
 		    	}
 		    	else if(browser.equals("edgedriver"))
 		    	{
-		    		
-		    	System.setProperty("webdriver.edge.driver", readconfig.GetFirefoxpath());
+		    		WebDriverManager.edgedriver().setup();  
 		    		driver = new EdgeDriver();
 		    	}
 		    	else if(browser.equals("firefox"))
 		    	{
 		    		
-		    	 System.setProperty("webdriver.gecko.driver", readconfig.GetEdgeDriver());
+		    		WebDriverManager.firefoxdriver().setup();  		    		
 		    		driver = new FirefoxDriver();
 		    	}
 		    	else 
