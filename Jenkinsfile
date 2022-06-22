@@ -5,7 +5,7 @@ pipeline {
 
             steps {
              echo "Build is in progress..."
-                    bat 'mvn clean'
+                    bat 'mvn clean install'
             }
         }
         stage ('Testing Stage') {
