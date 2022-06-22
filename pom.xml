@@ -10,19 +10,11 @@
     <artifactId>selenium-java</artifactId>
     <version>4.1.4</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
-<!--dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-surefire-plugin</artifactId>
-    <version>3.0.0-M6</version>
-</dependency-->
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
  <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
     <version>7.1.0</version>
-</dependency->
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit (optional)-->
+</dependency>
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-junit</artifactId>
